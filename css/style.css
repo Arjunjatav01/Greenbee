@@ -128,7 +128,13 @@ p{
     margin-bottom:30px;
 }
 .col-3 img{
-    width:100%;
+    /* width:100%; */
+    /* float: left; */
+    width:  100%;
+    height:auto;
+   /* object-fit: cover;
+    background-size: cover; */
+    overflow: hidden;
 }
 .small-container{
     margin: auto;
@@ -157,7 +163,7 @@ p{
 }
 .title::after{
     content:"";
-    background: #ff523b;
+    background: #009107;
     width: 80px;
     height: 5px;
     border-radius: 5px;
